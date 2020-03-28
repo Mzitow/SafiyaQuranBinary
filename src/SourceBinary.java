@@ -59,9 +59,9 @@ public class SourceBinary {
 
                 //Loops through the entire Quran to count the number of letters
                 //looks for char num falls in which verse
-                for(int i = 0; i < arr2.length + 1; i++)
+                for(int i = 0; i <= arr2.length ; i++)
                 {
-                    //where is num coming from?
+
                     if(num >= 320710)
                     {
                         //if the count is reached save the current index(Verse) and exit
